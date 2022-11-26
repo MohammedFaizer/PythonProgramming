@@ -1,0 +1,5 @@
+hour_wages=int(input('Enter the hourly wages:'))
+total_regular_hours=int(input('Enter the total regular hours:'))
+total_additional_hours=int(input('Enter the total additional hours:'))
+package=(hour_wages*total_regular_hours)+(total_additional_hours*(hour_wages*1.5))
+print(f'total wekkly package is :{package}')
